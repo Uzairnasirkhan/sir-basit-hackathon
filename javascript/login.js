@@ -42,11 +42,11 @@ window.loginHandler = async ()=>{
         }
 
         if(obj.userType == "admin"){
-            window.location.replace("../pages/AddStudent.html")
+            window.location.href = "../pages/AddStudent.html"
         }
         else{
             localStorage.setItem("userid",uid)
-            window.location.replace("../pages/student.html")
+            window.location.href = "../pages/student.html"
         }
 
         
