@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.parent{
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.header{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.formParent input{
+   border: 1px solid rgb(198, 198, 198);
+}
+
+.formKid{
+    width: 45%;
+}
+.formKid p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+.uploadBtn{
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.markRow{
+    border: 1px solid green;
+}
+
+#myHeading{
+    background: rgb(0,177,255);
+background: linear-gradient(159deg, rgba(0,177,255,1) 0%, rgba(9,67,163,1) 60%);
+color: white;
+display: flex;
+height: 200px;
+align-items: center;
+justify-content: center;
+padding-left: 25px;
+border-radius: 10px;
+}
+
