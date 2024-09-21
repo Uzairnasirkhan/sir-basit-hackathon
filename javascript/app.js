@@ -48,6 +48,7 @@ window.signupFunc = async ()=>{
           mathMarks: 0,
           englishMarks:0,
           computerMarks:0,
+          totalMarks: mathmarks +englishMarks + computerMarks,
           userType: "Student"
     }
 
