@@ -50,7 +50,7 @@ const renderTable = ()=>{
                 <td class="markRow"><span>${x.mathMarks}</span><button class="uploadBtn" onclick="uploadMathMarks(this)"><i class="fa-solid fa-arrow-up-from-bracket"></i></button></td>
                 <td class="markRow"><span>${x.englishMarks}</span><button class="uploadBtn" onclick="uploadEngMarks(this)"><i class="fa-solid fa-arrow-up-from-bracket"></i></button></td>
                 <td class="markRow"><span>${x.computerMarks}</span><button class="uploadBtn" onclick="uploadCompMarks(this)"><i class="fa-solid fa-arrow-up-from-bracket"></i></button></td>
-                <td>100</td>
+                <td>${x.totalMarks}</td>
               </tr> `    }
     }
 }
