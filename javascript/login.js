@@ -55,5 +55,6 @@ window.loginHandler = async ()=>{
    
    catch(error){
        console.log(error)
+       alert("Error",error.message)
    }
 }
